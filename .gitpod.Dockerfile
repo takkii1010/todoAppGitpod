@@ -6,5 +6,5 @@ RUN npm install expo-cli --global
 RUN brew install nodebrew
 RUN mkdir -p ~/.nodebrew/src
 RUN nodebrew install v18.15.0
-RUN brew install openjdk@11
+# RUN brew install openjdk@11
 # npx expo start
